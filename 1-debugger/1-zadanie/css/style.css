@@ -102,10 +102,10 @@ body {
 }
 
 .article-btn:hover {
-  background: #111;
-  color: #000;
+  background: dodgerblue;
+  color: aliceblue;
 }
-.btn {
+/* .btn {
     background: #333;
     color: #686868;
-}
+} */

@@ -11,6 +11,8 @@ function generateRandomColor() {
 
 function setTimer(h, m, s) {
     secondEl.innerText = (""+s).padStart(2, "0");
+    minutesEl.innerText = (""+m).padStart(2, "0");
+    hoursEl.innerText = (""+h).padStart(2, "0");
 }
 
 function setClockHands(h, m, s) {

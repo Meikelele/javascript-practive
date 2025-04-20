@@ -6,7 +6,7 @@ let count = 0;
 
 function generateRandomColor() {
     const random = Math.floor(Math.random()*360);
-    return `hsl(${random}, 20%, 60%)`;
+    return `hsl(${random}, 70%, 60%)`;
 }
 
 function setTimer(h, m, s) {

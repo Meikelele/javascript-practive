@@ -17,7 +17,11 @@ function setTimer(h, m, s) {
 
 function setClockHands(h, m, s) {
     const secondDegrees = ((s / 60) * 360);
+    const minuteDegrees = ((m / 60) *360);
+    const hourDegrees = ((h / 12)* 360);
     clock.style.setProperty('--second', `${secondDegrees}deg`);
+    clock.style.setProperty('--minutes', `${minuteDegrees}deg`);
+    clock.style.setProperty('--hours', `${hourDegrees}deg`);
 }
 
 function time() {

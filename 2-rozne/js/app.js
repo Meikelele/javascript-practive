@@ -1,3 +1,6 @@
+// ======================
+//         ZADANIE 1
+// ======================
 // {
 //     const input = prompt("Podaj jakis input...");
     
@@ -18,7 +21,9 @@
 //         console.log(`Tekst "${input}" składa się z ${count} ${count === 1 ? "wyrazu" : "wyrazów"}`);
 //       }
 // }
-
+// ======================
+//         ZADANIE 2
+// ======================
 // {const userName = prompt("Podaj swoje imie...");
 
 // function fixName(userName) {
@@ -37,7 +42,9 @@
 // if (userNameFixed === null) { console.log(`nic nie wpisano`) }
 // else { console.log(`Imie ${userNameFixed} rozpoczyna sie od litery ${userNameFixed[0]}`); }
 // }
-
+// ======================
+//         ZADANIE 3
+// ======================
 // { const userFile = prompt("Podaj nazwe pliku wraz z rozserzeniem");
 // const returnFile = fileInfo(userFile);
 
@@ -58,21 +65,27 @@
 //     };
 // }
 // }
+// ======================
+//         ZADANIE 4
+// ======================
+// function generateID() {
+//     //  losowo 20 cyfr liczby i cyfry i inne 
+//     const chars = "abcdefghijk1234567890!@#$%^&*()_-";
+//     let result = ``;
+//     const min = 0;
+//     const max = chars.length - 1;
 
-function generateID() {
-    //  losowo 20 cyfr liczby i cyfry i inne 
-    const chars = "abcdefghijk1234567890!@#$%^&*()_-";
-    let result = ``;
-    const min = 0;
-    const max = chars.length - 1;
 
+//     for (let i = 0; i < 20; i++) {
+//         let rdIndex =  Math.floor(Math.random() * (max - min + 1) + min);
+//         result += chars[rdIndex];
+//         console.log(result);
+//     }
 
-    for (let i = 0; i < 20; i++) {
-        let rdIndex =  Math.floor(Math.random() * (max - min + 1) + min);
-        result += chars[rdIndex];
-        console.log(result);
-    }
+//     return result;
+// }
+// console.log("🚀 ~ generateID();:", generateID())
 
-    return result;
-}
-console.log("🚀 ~ generateID();:", generateID())
+// ======================
+//         ZADANIE 5
+// ======================

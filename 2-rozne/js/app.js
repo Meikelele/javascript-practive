@@ -89,16 +89,20 @@
 // ======================
 //         ZADANIE 5
 // ======================
-const usernumber = prompt("Prosze podac liczbe...");
-if (usernumber === null) console.log("Anulowano...");
-const number = parseInt(usernumber, 10);
-console.log(printNumbers(number));
+// const usernumber = prompt("Prosze podac liczbe...");
+// if (usernumber === null) console.log("Anulowano...");
+// const number = parseInt(usernumber, 10);
+// console.log(printNumbers(number));
 
-function printNumbers(nr) {
-    let result = ``;
-    for (let i = 1; i <= nr; i++) {
-        result += i;
-    }
-    // console.log(result);
-    return result;
-}
+// function printNumbers(nr) {
+//     let result = ``;
+//     for (let i = 1; i <= nr; i++) {
+//         result += i;
+//     }
+//     // console.log(result);
+//     return result;
+// }
+
+// ======================
+//         ZADANIE 6
+// ======================

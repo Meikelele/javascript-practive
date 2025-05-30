@@ -38,22 +38,41 @@
 // else { console.log(`Imie ${userNameFixed} rozpoczyna sie od litery ${userNameFixed[0]}`); }
 // }
 
-const userFile = prompt("Podaj nazwe pliku wraz z rozserzeniem");
-const returnFile = fileInfo(userFile);
+// { const userFile = prompt("Podaj nazwe pliku wraz z rozserzeniem");
+// const returnFile = fileInfo(userFile);
 
-if (returnFile) {
-    console.log(returnFile);
-} else {
-    console.log("Nie podano rozserzenia z '.'");
+// if (returnFile) {
+//     console.log(returnFile);
+// } else {
+//     console.log("Nie podano rozserzenia z '.'");
+// }
+
+// function fileInfo(file) {
+
+//     if (!file.includes(".")) return false;
+//     const lastDotindex = file.lastIndexOf(".");
+
+//     return {
+//         name: file.slice(0, lastDotindex),
+//         extension: file.slice(lastDotindex + 1)
+//     };
+// }
+// }
+
+function generateID() {
+    //  losowo 20 cyfr liczby i cyfry i inne 
+    const chars = "abcdefghijk1234567890!@#$%^&*()_-";
+    let result = ``;
+    const min = 0;
+    const max = chars.length - 1;
+
+
+    for (let i = 0; i < 20; i++) {
+        let rdIndex =  Math.floor(Math.random() * (max - min + 1) + min);
+        result += chars[rdIndex];
+        console.log(result);
+    }
+
+    return result;
 }
-
-function fileInfo(file) {
-
-    if (!file.includes(".")) return false;
-    const lastDotindex = file.lastIndexOf(".");
-
-    return {
-        name: file.slice(0, lastDotindex),
-        extension: file.slice(lastDotindex + 1)
-    };
-}
+console.log("🚀 ~ generateID();:", generateID())

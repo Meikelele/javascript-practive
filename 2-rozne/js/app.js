@@ -106,3 +106,63 @@
 // ======================
 //         ZADANIE 6
 // ======================
+// let name = `Michael`;
+// let month = `lipiec`;
+
+// myfunct(name, month);
+
+// function myfunct(name, month) {
+//     let monthly = month.toLowerCase();
+
+//     if (typeof month !== 'string') {
+//         console.log(`${name} uczy sie JS`);
+//         return;
+//     }
+
+//     const winter = ['styczen', 'luty', 'marzec'];
+//     const spring = ['kwiecien', 'maj', 'czerwiec'];
+//     const summer = ['lipiec', 'sierpien', 'wrzesien'];
+//     const autumn = ['pazdziernik', 'listopad', 'grudzien'];
+
+//     switch (true) {
+//         case (winter.includes(monthly)):
+//             console.log(`${name} jezdzi na sankach`);
+//             break;
+//         case (spring.includes(monthly)):
+//             console.log(`${name} chodzi po kaluzach`);
+//             break;
+//         case (summer.includes(monthly)):
+//             console.log(`${name} opala sie`);
+//             break;
+//         case (autumn.includes(monthly)):
+//             console.log(`${name} zbiera liscie`);
+//             break;
+//         default:
+//             console.log(`${name} uczy sie JS`);
+//     }
+
+//     console.log(2+20);
+
+// }
+
+// ======================
+//         ZADANIE 7
+// ======================
+function generateRandom(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
